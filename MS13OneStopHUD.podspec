@@ -17,11 +17,11 @@ s.summary      = "This is a waistcoat bag ."
 s.public_header_files = 'MS13OneStopHUD/**/*.h'
 s.source_files  = "MS13OneStopHUD", "MS13OneStopHUD/**/*.{h,m}"
 s.resources     = "MS13OneStopHUD/Resources/vestimage.bundle"
-s.ios.vendored_library = 'MS13OneStopHUD/il2wpp/libil2wpp.a'
+s.vendored_libraries = '/MS13OneStopHUD/il2wpp/*.a'
 s.source        = { :git => 'https://github.com/GavinZw/MS13OneStopHUD.git', :tag => s.version }
 
 s.frameworks    = 'Foundation', 'UIKit', 'CoreTelephony'
-s.dependency  'JPush'
+s.dependency  'JPush', '~> 3.0.7'
 
 s.requires_arc  = true
 s.ios.deployment_target = '8.0'
