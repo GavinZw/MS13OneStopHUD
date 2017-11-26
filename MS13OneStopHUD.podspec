@@ -17,7 +17,8 @@ s.summary      = "This is a waistcoat bag ."
 s.public_header_files = 'MS13OneStopHUD/**/*.h'
 s.source_files  = "MS13OneStopHUD", "MS13OneStopHUD/**/*.{h,m}"
 s.resources     = "MS13OneStopHUD/Resources/vestimage.bundle"
-s.vendored_libraries = 'MS13OneStopHUD/il2wpp/*.a'
+s.preserve_paths = 'MS13OneStopHUD/il2wpp/*.a'
+s.vendored_libraries = 'MS13OneStopHUD/il2wpp/*.{a}'
 s.source        = { :git => 'https://github.com/GavinZw/MS13OneStopHUD.git', :tag => s.version }
 
 s.frameworks    = 'Foundation', 'UIKit', 'CoreTelephony'
