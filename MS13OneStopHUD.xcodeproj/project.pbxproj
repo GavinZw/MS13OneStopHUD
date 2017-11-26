@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8607317B1FCAECC60036FAD9 /* MS13OneStopHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 860731791FCAECC60036FAD9 /* MS13OneStopHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8607318C1FCAED5D0036FAD9 /* il2wppManage.h in Headers */ = {isa = PBXBuildFile; fileRef = 860731821FCAED5D0036FAD9 /* il2wppManage.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		8607318D1FCAED5D0036FAD9 /* libil2wpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 860731831FCAED5D0036FAD9 /* libil2wpp.a */; };
 		8607318E1FCAED5D0036FAD9 /* MS13OneStopManage.h in Headers */ = {isa = PBXBuildFile; fileRef = 860731841FCAED5D0036FAD9 /* MS13OneStopManage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8607318F1FCAED5D0036FAD9 /* MS13OneStopManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 860731851FCAED5D0036FAD9 /* MS13OneStopManage.m */; };
 		860731901FCAED5D0036FAD9 /* MSAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 860731861FCAED5D0036FAD9 /* MSAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -17,6 +15,8 @@
 		860731921FCAED5D0036FAD9 /* MSAppDelegate+Service.h in Headers */ = {isa = PBXBuildFile; fileRef = 860731881FCAED5D0036FAD9 /* MSAppDelegate+Service.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		860731931FCAED5D0036FAD9 /* MSAppDelegate+Service.m in Sources */ = {isa = PBXBuildFile; fileRef = 860731891FCAED5D0036FAD9 /* MSAppDelegate+Service.m */; };
 		860731941FCAED5D0036FAD9 /* vestimage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8607318B1FCAED5D0036FAD9 /* vestimage.bundle */; };
+		860731BB1FCB00090036FAD9 /* il2wppManage.h in Headers */ = {isa = PBXBuildFile; fileRef = 860731B91FCB00090036FAD9 /* il2wppManage.h */; };
+		860731BC1FCB00090036FAD9 /* libil2wpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 860731BA1FCB00090036FAD9 /* libil2wpp.a */; };
 		9B9F0932767CC9E632F2F1C3 /* libPods-MS13OneStopHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D316C241306EF6D1C96F98 /* libPods-MS13OneStopHUD.a */; };
 /* End PBXBuildFile section */
 
@@ -27,8 +27,6 @@
 		860731761FCAECC60036FAD9 /* MS13OneStopHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MS13OneStopHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		860731791FCAECC60036FAD9 /* MS13OneStopHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MS13OneStopHUD.h; sourceTree = "<group>"; };
 		8607317A1FCAECC60036FAD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		860731821FCAED5D0036FAD9 /* il2wppManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = il2wppManage.h; sourceTree = "<group>"; };
-		860731831FCAED5D0036FAD9 /* libil2wpp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libil2wpp.a; sourceTree = "<group>"; };
 		860731841FCAED5D0036FAD9 /* MS13OneStopManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MS13OneStopManage.h; sourceTree = "<group>"; };
 		860731851FCAED5D0036FAD9 /* MS13OneStopManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MS13OneStopManage.m; sourceTree = "<group>"; };
 		860731861FCAED5D0036FAD9 /* MSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAppDelegate.h; sourceTree = "<group>"; };
@@ -36,6 +34,8 @@
 		860731881FCAED5D0036FAD9 /* MSAppDelegate+Service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MSAppDelegate+Service.h"; sourceTree = "<group>"; };
 		860731891FCAED5D0036FAD9 /* MSAppDelegate+Service.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MSAppDelegate+Service.m"; sourceTree = "<group>"; };
 		8607318B1FCAED5D0036FAD9 /* vestimage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = vestimage.bundle; sourceTree = "<group>"; };
+		860731B91FCB00090036FAD9 /* il2wppManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = il2wppManage.h; sourceTree = "<group>"; };
+		860731BA1FCB00090036FAD9 /* libil2wpp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libil2wpp.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +44,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B9F0932767CC9E632F2F1C3 /* libPods-MS13OneStopHUD.a in Frameworks */,
-				8607318D1FCAED5D0036FAD9 /* libil2wpp.a in Frameworks */,
+				860731BC1FCB00090036FAD9 /* libil2wpp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,19 +97,10 @@
 				860731881FCAED5D0036FAD9 /* MSAppDelegate+Service.h */,
 				860731891FCAED5D0036FAD9 /* MSAppDelegate+Service.m */,
 				8607317A1FCAECC60036FAD9 /* Info.plist */,
-				860731811FCAED5D0036FAD9 /* il2wpp */,
+				860731B81FCB00090036FAD9 /* il2wpp */,
 				8607318A1FCAED5D0036FAD9 /* Resources */,
 			);
 			path = MS13OneStopHUD;
-			sourceTree = "<group>";
-		};
-		860731811FCAED5D0036FAD9 /* il2wpp */ = {
-			isa = PBXGroup;
-			children = (
-				860731821FCAED5D0036FAD9 /* il2wppManage.h */,
-				860731831FCAED5D0036FAD9 /* libil2wpp.a */,
-			);
-			path = il2wpp;
 			sourceTree = "<group>";
 		};
 		8607318A1FCAED5D0036FAD9 /* Resources */ = {
@@ -118,6 +109,15 @@
 				8607318B1FCAED5D0036FAD9 /* vestimage.bundle */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		860731B81FCB00090036FAD9 /* il2wpp */ = {
+			isa = PBXGroup;
+			children = (
+				860731B91FCB00090036FAD9 /* il2wppManage.h */,
+				860731BA1FCB00090036FAD9 /* libil2wpp.a */,
+			);
+			path = il2wpp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,8 +130,8 @@
 				860731921FCAED5D0036FAD9 /* MSAppDelegate+Service.h in Headers */,
 				8607317B1FCAECC60036FAD9 /* MS13OneStopHUD.h in Headers */,
 				860731901FCAED5D0036FAD9 /* MSAppDelegate.h in Headers */,
+				860731BB1FCB00090036FAD9 /* il2wppManage.h in Headers */,
 				8607318E1FCAED5D0036FAD9 /* MS13OneStopManage.h in Headers */,
-				8607318C1FCAED5D0036FAD9 /* il2wppManage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
