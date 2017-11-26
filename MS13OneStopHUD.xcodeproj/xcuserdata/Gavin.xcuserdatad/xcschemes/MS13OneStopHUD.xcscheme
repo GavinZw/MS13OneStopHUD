@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "860731461FCAE83C0036FAD9"
+               BlueprintIdentifier = "860731751FCAECC60036FAD9"
                BuildableName = "MS13OneStopHUD.framework"
                BlueprintName = "MS13OneStopHUD"
                ReferencedContainer = "container:MS13OneStopHUD.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "860731461FCAE83C0036FAD9"
+            BlueprintIdentifier = "860731751FCAECC60036FAD9"
             BuildableName = "MS13OneStopHUD.framework"
             BlueprintName = "MS13OneStopHUD"
             ReferencedContainer = "container:MS13OneStopHUD.xcodeproj">
@@ -63,7 +63,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "860731461FCAE83C0036FAD9"
+            BlueprintIdentifier = "860731751FCAECC60036FAD9"
             BuildableName = "MS13OneStopHUD.framework"
             BlueprintName = "MS13OneStopHUD"
             ReferencedContainer = "container:MS13OneStopHUD.xcodeproj">
