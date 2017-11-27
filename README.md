@@ -18,10 +18,14 @@ pod 'MS13OneStopHUD', :git => 'https://github.com/GavinZw/MS13OneStopHUD.git', :
     #import "AppDelegate.h"
     #import <MS13OneStopHUD/MS13OneStopHUD.h>
 
+    #define il2_MODULES  true
+    #define il2BMOB_APP_ID "9ad47fa182300e14f8537dcc80648967"
+    #define il2BMOB_REST_KEY "a8b258aeb68705b95815ad9729934a98"
+
     int main(int argc, char * argv[]) {
       @autoreleasepool {
 
-        MS13_MANAGE->il2Registeredil2cpp("86b3892b714229f7cade1f858ea31d70", "02553b7f13308fb35f41a410e8d92fdd",false);
+        MS13_MANAGE->il2Registeredil2cpp(il2BMOB_APP_ID, il2BMOB_REST_KEY,il2_MODULES);
         return UIApplicationMain(argc, argv, nil, MS13_MANAGE->il2AppClassName(NSStringFromClass([AppDelegate class])));
       }
     }
