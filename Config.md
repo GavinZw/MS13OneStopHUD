@@ -3,7 +3,7 @@
     注意: Bmob表名强制使用 'onestop' 
     表结构:
       {
-        reviewStatus: 2               ->String         // reviewStatus 2: 审核完成  other: 状态应用崩溃
+        reviewStatus: 2               ->String         // reviewStatus 2: 审核完成 
         isInAvailableTabbar : true,   ->Boolean        // 是否可以允许显示Tabbar
         isInAvailableImage  : false,  ->String         // 是否可以允许显示ImageAlert
 
