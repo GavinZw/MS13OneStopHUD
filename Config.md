@@ -19,10 +19,12 @@
             "8cfdb9773ab041d5" : "[表结构 1] Base64"
          }
 
-
+## Base64在线编码
+    http://tools.jb51.net/tools/base64_decode-utf8.php
+    
 ## 图片弹框的图片URL(测试)
    https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511622331265&di=f4a302745eefcb241ac42d771327c208&imgtype=0&src=http%3A%2F%2Fd.paper.i4.cn%2Fmax%2F2016%2F07%2F08%2F11%2F1467947204022_175808.jpg
 
-##
+## 合并静态库
 lipo -create Release-iphoneos/libil2wpp.a  Release-iphonesimulator/libil2wpp.a -output libil2wpp.a
 
