@@ -9,8 +9,6 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#define mark @"36594243ce7b7ab9"
-
 FOUNDATION_EXTERN NSString *const il2cppNoticeName;
 
 typedef struct _il2hppManage_t{
