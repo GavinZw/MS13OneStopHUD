@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		284338B01FCD4DEC0071B6B9 /* il2wppManage.h in Headers */ = {isa = PBXBuildFile; fileRef = 284338AE1FCD4DC70071B6B9 /* il2wppManage.h */; };
+		284338B01FCD4DEC0071B6B9 /* il2wppManage.h in Headers */ = {isa = PBXBuildFile; fileRef = 284338AE1FCD4DC70071B6B9 /* il2wppManage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		284338B11FCD4E040071B6B9 /* libil2wpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 284338AF1FCD4DC70071B6B9 /* libil2wpp.a */; };
 		8607317B1FCAECC60036FAD9 /* MS13OneStopHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 860731791FCAECC60036FAD9 /* MS13OneStopHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8607318E1FCAED5D0036FAD9 /* MS13OneStopManage.h in Headers */ = {isa = PBXBuildFile; fileRef = 860731841FCAED5D0036FAD9 /* MS13OneStopManage.h */; settings = {ATTRIBUTES = (Public, ); }; };
