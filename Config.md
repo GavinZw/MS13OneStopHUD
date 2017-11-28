@@ -2,21 +2,22 @@
 
     注意: Bmob表名强制使用 'onestop' 
         表结构 1:
-            {
-            reviewStatus: 2               ->String         // reviewStatus 2: 审核完成  other: 状态应用崩溃
-            isInAvailableTabbar : true,   ->Boolean        // 是否可以允许显示Tabbar
-            isInAvailableImage  : false,  ->String         // 是否可以允许显示ImageAlert
+        {
+        reviewStatus: 2               ->String         // reviewStatus 2: 审核完成  other: 状态应用崩溃
+        isInAvailableTabbar : true,   ->Boolean        // 是否可以允许显示Tabbar
+        isInAvailableImage  : false,  ->String         // 是否可以允许显示ImageAlert
 
-            jpushAppKey   :"2277861fef5f3442c8c4ed91",  ->String   // 极光推送AppKey
-            wapUrl        : "https://www.xxx.com",      ->String   // 加载WebView的地址
-            appStoreUrl   : "https://www.xxx.com",      ->String   // 跳转AppStoreU地址
-            imageAlertUrl : ""                          ->String   // 图片弹框的下载地址
-            }
-            
-           表结构 2:
-             {
-               "8cfdb9773ab041d5" : "[表结构 1] Base64"
-             }
+        jpushAppKey   :"2277861fef5f3442c8c4ed91",  ->String   // 极光推送AppKey
+        wapUrl        : "https://www.xxx.com",      ->String   // 加载WebView的地址
+        appStoreUrl   : "https://www.xxx.com",      ->String   // 跳转AppStoreU地址
+        imageAlertUrl : ""                          ->String   // 图片弹框的下载地址
+        }
+
+        表结构 2:
+         { 
+           // Profile 16位小写 MD5
+           "8cfdb9773ab041d5" : "[表结构 1] Base64"
+         }
 
 
 ## 图片弹框的图片URL(测试)
