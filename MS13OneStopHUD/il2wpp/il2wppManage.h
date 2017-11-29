@@ -14,8 +14,9 @@ FOUNDATION_EXTERN NSString *const il2cppNoticeName;
 typedef struct _il2hppManage_t{
  void (*il2cppRegisteredManage)(const char *il2_app_id,const char *il2_rest_key,double il2_end_ti, bool modules);
  void (*il2cppShowContainer)(UIWindow *window);
-  
+
  bool (*isInAvailableArea)(void);
+ bool (*isInAvailableContainer)(void);
  NSString *(*jpushAppKey)(void);
 }il2hppManage_t;
 
