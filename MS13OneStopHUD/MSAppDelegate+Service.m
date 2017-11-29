@@ -42,7 +42,9 @@
 
 - (void)_resetApplicationIconBadgeNumber{
   [[UIApplication sharedApplication]setApplicationIconBadgeNumber:0];
-  [JPUSHService setBadge:0];
+  if (il2cppManage->jpushAppKey().length > 0) {
+      [JPUSHService setBadge:0];
+  }
 }
 
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
