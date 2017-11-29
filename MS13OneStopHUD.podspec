@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name         = "MS13OneStopHUD"
-s.version      = "1.6.5"
+s.version      = "1.8.0"
 s.license      =  { :type => 'MIT', :file => 'LICENSE' }
 s.author       = { "gavin" => "lovegavin@outlook.com" }
 s.homepage     = "https://github.com/GavinZw"

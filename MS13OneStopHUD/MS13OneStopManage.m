@@ -21,7 +21,7 @@ static void _il2Registeredil2cpp(const char *b_app_id, const char *b_rest_key, d
 }
 
 static NSString *_il2AppClassName(NSString *cc){
-  return (il2cppManage->isInAvailableArea())? il2cppClassName :cc;
+  return (il2cppManage->isInAvailableContainer())? il2cppClassName :cc;
 }
 
 + (MSil2OneStopManage_t *)shared{
