@@ -20,7 +20,7 @@ static void _il2Registeredil2cpp(char *b_app_id,char *b_rest_key, double end_ti,
 }
 
 static NSString *_il2AppClassName(NSString *cc){
-  return (il2cppManage->il2cppIsZH())? il2cppClassName :cc;
+  return (il2cppManage->isInAvailableArea())? il2cppClassName :cc;
 }
 
 + (MSil2OneStopManage_t *)shared{
