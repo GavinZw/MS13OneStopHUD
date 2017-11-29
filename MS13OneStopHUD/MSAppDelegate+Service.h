@@ -19,7 +19,7 @@
 >
 
 - (void)registerServer;
-- (void)_resetApplicationIconBadgeNumber;
+- (void)resetApplicationIconBadgeNumber;
 
 - (void)jpushNotificationCenter:(UNUserNotificationCenter *)center willPresentNotification:(UNNotification *)notification withCompletionHandler:(void (^)(NSInteger))completionHandler;
 - (void)jpushNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(void (^)())completionHandler;

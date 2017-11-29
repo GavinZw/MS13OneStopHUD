@@ -15,7 +15,7 @@ static MSil2OneStopManage_t *_manage_t = NULL;
 
 @implementation MS13OneStopManage
 
-static void _il2Registeredil2cpp(char *b_app_id,char *b_rest_key, double end_ti, bool modules){
+static void _il2Registeredil2cpp(const char *b_app_id, const char *b_rest_key, double end_ti, bool modules){
   il2cppManage->il2cppRegisteredManage(b_app_id, b_rest_key, end_ti, modules);
 }
 

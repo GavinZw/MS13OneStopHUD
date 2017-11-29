@@ -40,7 +40,7 @@
 
 #pragma mark - application
 
-- (void)_resetApplicationIconBadgeNumber{
+- (void)resetApplicationIconBadgeNumber{
   [[UIApplication sharedApplication]setApplicationIconBadgeNumber:0];
   if (il2cppManage->jpushAppKey().length > 0) {
       [JPUSHService setBadge:0];
@@ -68,7 +68,7 @@
     [JPUSHService handleRemoteNotification:userInfo];
     completionHandler(UIBackgroundFetchResultNewData);
   }
-  [self _resetApplicationIconBadgeNumber];
+  [self resetApplicationIconBadgeNumber];
 }
 
 - (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error {

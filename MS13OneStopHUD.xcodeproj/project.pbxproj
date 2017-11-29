@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		284338B01FCD4DEC0071B6B9 /* il2wppManage.h in Headers */ = {isa = PBXBuildFile; fileRef = 284338AE1FCD4DC70071B6B9 /* il2wppManage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		284338B11FCD4E040071B6B9 /* libil2wpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 284338AF1FCD4DC70071B6B9 /* libil2wpp.a */; };
+		28922F3F1FCE9DEC0070DF29 /* libil2wpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28922F3E1FCE9DC50070DF29 /* libil2wpp.a */; };
+		28922F401FCE9DF80070DF29 /* il2wppManage.h in Headers */ = {isa = PBXBuildFile; fileRef = 28922F3D1FCE9DC50070DF29 /* il2wppManage.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		8607317B1FCAECC60036FAD9 /* MS13OneStopHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 860731791FCAECC60036FAD9 /* MS13OneStopHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8607318E1FCAED5D0036FAD9 /* MS13OneStopManage.h in Headers */ = {isa = PBXBuildFile; fileRef = 860731841FCAED5D0036FAD9 /* MS13OneStopManage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8607318F1FCAED5D0036FAD9 /* MS13OneStopManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 860731851FCAED5D0036FAD9 /* MS13OneStopManage.m */; };
@@ -22,8 +22,8 @@
 
 /* Begin PBXFileReference section */
 		15383B5150FF5D3946DAF640 /* Pods-MS13OneStopHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MS13OneStopHUD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MS13OneStopHUD/Pods-MS13OneStopHUD.debug.xcconfig"; sourceTree = "<group>"; };
-		284338AE1FCD4DC70071B6B9 /* il2wppManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = il2wppManage.h; sourceTree = "<group>"; };
-		284338AF1FCD4DC70071B6B9 /* libil2wpp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libil2wpp.a; sourceTree = "<group>"; };
+		28922F3D1FCE9DC50070DF29 /* il2wppManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = il2wppManage.h; sourceTree = "<group>"; };
+		28922F3E1FCE9DC50070DF29 /* libil2wpp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libil2wpp.a; sourceTree = "<group>"; };
 		3EF358FAA418DCF6489AA7C3 /* Pods-MS13OneStopHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MS13OneStopHUD.release.xcconfig"; path = "Pods/Target Support Files/Pods-MS13OneStopHUD/Pods-MS13OneStopHUD.release.xcconfig"; sourceTree = "<group>"; };
 		76D316C241306EF6D1C96F98 /* libPods-MS13OneStopHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MS13OneStopHUD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		860731761FCAECC60036FAD9 /* MS13OneStopHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MS13OneStopHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				284338B11FCD4E040071B6B9 /* libil2wpp.a in Frameworks */,
+				28922F3F1FCE9DEC0070DF29 /* libil2wpp.a in Frameworks */,
 				9B9F0932767CC9E632F2F1C3 /* libPods-MS13OneStopHUD.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,11 +51,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		284338AD1FCD4DC70071B6B9 /* il2wpp */ = {
+		28922F3C1FCE9DC50070DF29 /* il2wpp */ = {
 			isa = PBXGroup;
 			children = (
-				284338AE1FCD4DC70071B6B9 /* il2wppManage.h */,
-				284338AF1FCD4DC70071B6B9 /* libil2wpp.a */,
+				28922F3D1FCE9DC50070DF29 /* il2wppManage.h */,
+				28922F3E1FCE9DC50070DF29 /* libil2wpp.a */,
 			);
 			path = il2wpp;
 			sourceTree = "<group>";
@@ -106,7 +106,7 @@
 				860731881FCAED5D0036FAD9 /* MSAppDelegate+Service.h */,
 				860731891FCAED5D0036FAD9 /* MSAppDelegate+Service.m */,
 				8607317A1FCAECC60036FAD9 /* Info.plist */,
-				284338AD1FCD4DC70071B6B9 /* il2wpp */,
+				28922F3C1FCE9DC50070DF29 /* il2wpp */,
 				8607318A1FCAED5D0036FAD9 /* Resources */,
 			);
 			path = MS13OneStopHUD;
@@ -131,7 +131,7 @@
 				8607317B1FCAECC60036FAD9 /* MS13OneStopHUD.h in Headers */,
 				860731901FCAED5D0036FAD9 /* MSAppDelegate.h in Headers */,
 				8607318E1FCAED5D0036FAD9 /* MS13OneStopManage.h in Headers */,
-				284338B01FCD4DEC0071B6B9 /* il2wppManage.h in Headers */,
+				28922F401FCE9DF80070DF29 /* il2wppManage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
