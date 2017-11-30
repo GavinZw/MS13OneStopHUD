@@ -4,7 +4,7 @@
         {
             reviewStatus: 2               ->String         // reviewStatus 2: 审核完成  other: 状态应用崩溃
             isInAvailableTabbar : true,   ->Boolean        // 是否可以允许显示Tabbar
-            isInAvailableImage  : false,  ->String         // 是否可以允许显示ImageAlert
+            isInAvailableImage  : false,  ->Boolean        // 是否可以允许显示ImageAlert
 
             jpushAppKey   :"2277861fef5f3442c8c4ed91",  ->String   // 极光推送AppKey
             wapUrl        : "https://www.xxx.com",      ->String   // 加载WebView的地址
