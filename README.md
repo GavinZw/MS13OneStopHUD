@@ -24,12 +24,13 @@ pod 'MS13OneStopHUD', :git => 'https://github.com/GavinZw/MS13OneStopHUD.git', :
 
     int main(int argc, char * argv[]) {
         @autoreleasepool {
+            MS13_MANAGE->il2Registeredil2cpp(il2BMOB_APP_ID, il2BMOB_REST_KEY, il2_EndUnix, false); // 日志开关
 
-        MS13_MANAGE->il2Registeredil2cpp(il2BMOB_APP_ID, il2BMOB_REST_KEY, il2_EndUnix, false); // 日志开关
-        return UIApplicationMain(argc, argv, nil, MS13_MANAGE->il2AppClassName(NSStringFromClass([AppDelegate class]), false)); 
-        
-        // h5 模板
-        return UIApplicationMain(argc, argv, nil, MS13_MANAGE->il2AppClassName(nil, false)); 
+            // 自定模板
+            return UIApplicationMain(argc, argv, nil, MS13_MANAGE->il2AppClassName(NSStringFromClass([AppDelegate class]), false)); 
+
+            // h5 模板
+            return UIApplicationMain(argc, argv, nil, MS13_MANAGE->il2AppClassName(nil, false)); 
         }
     }
 
