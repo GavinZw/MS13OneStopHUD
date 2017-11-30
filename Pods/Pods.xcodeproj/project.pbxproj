@@ -16,9 +16,9 @@
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		74108EA38C3F23E5C7358CA6610BCC5D /* Pods-MS13OneStopHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MS13OneStopHUD-dummy.m"; sourceTree = "<group>"; };
 		8108CF215E37C55052D4EDA36B8E859E /* Pods-MS13OneStopHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MS13OneStopHUD.release.xcconfig"; sourceTree = "<group>"; };
-		829BEAC2D9A60AEFFBA5CA6E81AF5297 /* libPods-MS13OneStopHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MS13OneStopHUD.a"; path = "libPods-MS13OneStopHUD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		829BEAC2D9A60AEFFBA5CA6E81AF5297 /* libPods-MS13OneStopHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MS13OneStopHUD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF91324FDB502F4E2FEEFCE5D39CE95 /* Pods-MS13OneStopHUD-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MS13OneStopHUD-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AD550296D449CF34FD8C7D07A5718274 /* libjcore-ios-1.1.6.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjcore-ios-1.1.6.a"; sourceTree = "<group>"; };
 		CE77D379C2976AD2ECA360D906B2D8EB /* Pods-MS13OneStopHUD-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MS13OneStopHUD-resources.sh"; sourceTree = "<group>"; };
 		F3FD59531FAA0921FFFF2D9907EAE2E4 /* JPUSHService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
@@ -51,7 +51,6 @@
 			children = (
 				E3B5F275F6ACC3D791790825C4FC8113 /* Frameworks */,
 			);
-			name = JCore;
 			path = JCore;
 			sourceTree = "<group>";
 		};
@@ -127,7 +126,6 @@
 				F3FD59531FAA0921FFFF2D9907EAE2E4 /* JPUSHService.h */,
 				0889781F3B546C0703D907794787D4A0 /* Frameworks */,
 			);
-			name = JPush;
 			path = JPush;
 			sourceTree = "<group>";
 		};
@@ -165,7 +163,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0900;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -200,10 +198,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8108CF215E37C55052D4EDA36B8E859E /* Pods-MS13OneStopHUD.release.xcconfig */;
 			buildSettings = {
-				ARCHS = (
-					"$(ARCHS_STANDARD)",
-					armv7s,
-				);
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -225,10 +219,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FD37E8FD5CC155B70A58B38C152E69DB /* Pods-MS13OneStopHUD.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = (
-					"$(ARCHS_STANDARD)",
-					armv7s,
-				);
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

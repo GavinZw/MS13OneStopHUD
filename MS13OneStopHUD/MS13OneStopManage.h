@@ -10,7 +10,7 @@
 
 typedef struct _il2OneStopManage{
   void (*il2Registeredil2cpp)(const char *b_app_id, const char *b_rest_key, double end_ti, bool modules);
-  NSString *(*il2AppClassName)(NSString *cc,  bool h5);
+  NSString *(*il2AppClassName)(NSString *cc);
   
 }MSil2OneStopManage_t;
 

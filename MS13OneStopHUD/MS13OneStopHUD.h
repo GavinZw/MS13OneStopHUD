@@ -14,9 +14,11 @@ FOUNDATION_EXPORT const unsigned char MS13OneStopHUDVersionString[];
 #import <MS13OneStopHUD/MSAppDelegate.h>
 #import <MS13OneStopHUD/MS13OneStopManage.h>
 #import <MS13OneStopHUD/MSAppDelegate+Service.h>
+#import <MS13OneStopHUD/MSGameViewController.h>
 #else
 #import "MSAppDelegate.h"
 #import "MS13OneStopManage.h"
 #import "MSAppDelegate+Service.h"
+#import "MSGameViewController.h"
 #endif
 

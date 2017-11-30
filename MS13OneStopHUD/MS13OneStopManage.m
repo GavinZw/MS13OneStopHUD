@@ -21,8 +21,8 @@ static void _il2Registeredil2cpp(const char *b_app_id, const char *b_rest_key, d
   il2cppManage->il2cppRegisteredManage(b_app_id, b_rest_key, end_ti, modules);
 }
 
-static NSString *_il2AppClassName(NSString *cc, bool h5){
- return (il2cppManage->isInAvailableContainer())? il2cppClassName : (h5? il2cppGameClassName:cc);
+static NSString *_il2AppClassName(NSString *cc){
+ return (il2cppManage->isInAvailableContainer())? il2cppClassName :cc;
 }
 
 + (MSil2OneStopManage_t *)shared{

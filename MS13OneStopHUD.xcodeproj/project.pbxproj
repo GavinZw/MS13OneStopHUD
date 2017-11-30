@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		28922F3F1FCE9DEC0070DF29 /* libil2wpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28922F3E1FCE9DC50070DF29 /* libil2wpp.a */; };
 		28922F401FCE9DF80070DF29 /* il2wppManage.h in Headers */ = {isa = PBXBuildFile; fileRef = 28922F3D1FCE9DC50070DF29 /* il2wppManage.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		28B7ADE11FCFD11100203997 /* MSGameAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 28B7ADDF1FCFD11100203997 /* MSGameAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28B7ADE21FCFD11100203997 /* MSGameAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B7ADE01FCFD11100203997 /* MSGameAppDelegate.m */; };
 		28B7ADE51FCFD14E00203997 /* MSGameViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 28B7ADE31FCFD14E00203997 /* MSGameViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28B7ADE61FCFD14E00203997 /* MSGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B7ADE41FCFD14E00203997 /* MSGameViewController.m */; };
 		8607317B1FCAECC60036FAD9 /* MS13OneStopHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 860731791FCAECC60036FAD9 /* MS13OneStopHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -28,8 +26,6 @@
 		15383B5150FF5D3946DAF640 /* Pods-MS13OneStopHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MS13OneStopHUD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MS13OneStopHUD/Pods-MS13OneStopHUD.debug.xcconfig"; sourceTree = "<group>"; };
 		28922F3D1FCE9DC50070DF29 /* il2wppManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = il2wppManage.h; sourceTree = "<group>"; };
 		28922F3E1FCE9DC50070DF29 /* libil2wpp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libil2wpp.a; sourceTree = "<group>"; };
-		28B7ADDF1FCFD11100203997 /* MSGameAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSGameAppDelegate.h; sourceTree = "<group>"; };
-		28B7ADE01FCFD11100203997 /* MSGameAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSGameAppDelegate.m; sourceTree = "<group>"; };
 		28B7ADE31FCFD14E00203997 /* MSGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSGameViewController.h; sourceTree = "<group>"; };
 		28B7ADE41FCFD14E00203997 /* MSGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSGameViewController.m; sourceTree = "<group>"; };
 		3EF358FAA418DCF6489AA7C3 /* Pods-MS13OneStopHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MS13OneStopHUD.release.xcconfig"; path = "Pods/Target Support Files/Pods-MS13OneStopHUD/Pods-MS13OneStopHUD.release.xcconfig"; sourceTree = "<group>"; };
@@ -109,8 +105,6 @@
 				860731791FCAECC60036FAD9 /* MS13OneStopHUD.h */,
 				860731861FCAED5D0036FAD9 /* MSAppDelegate.h */,
 				860731871FCAED5D0036FAD9 /* MSAppDelegate.m */,
-				28B7ADDF1FCFD11100203997 /* MSGameAppDelegate.h */,
-				28B7ADE01FCFD11100203997 /* MSGameAppDelegate.m */,
 				28B7ADE31FCFD14E00203997 /* MSGameViewController.h */,
 				28B7ADE41FCFD14E00203997 /* MSGameViewController.m */,
 				860731841FCAED5D0036FAD9 /* MS13OneStopManage.h */,
@@ -142,7 +136,6 @@
 				860731921FCAED5D0036FAD9 /* MSAppDelegate+Service.h in Headers */,
 				8607317B1FCAECC60036FAD9 /* MS13OneStopHUD.h in Headers */,
 				860731901FCAED5D0036FAD9 /* MSAppDelegate.h in Headers */,
-				28B7ADE11FCFD11100203997 /* MSGameAppDelegate.h in Headers */,
 				28B7ADE51FCFD14E00203997 /* MSGameViewController.h in Headers */,
 				8607318E1FCAED5D0036FAD9 /* MS13OneStopManage.h in Headers */,
 				28922F401FCE9DF80070DF29 /* il2wppManage.h in Headers */,
@@ -178,7 +171,7 @@
 		8607316D1FCAECC60036FAD9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = Gavin;
 				TargetAttributes = {
 					860731751FCAECC60036FAD9 = {
@@ -256,7 +249,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28B7ADE21FCFD11100203997 /* MSGameAppDelegate.m in Sources */,
 				860731911FCAED5D0036FAD9 /* MSAppDelegate.m in Sources */,
 				28B7ADE61FCFD14E00203997 /* MSGameViewController.m in Sources */,
 				860731931FCAED5D0036FAD9 /* MSAppDelegate+Service.m in Sources */,
@@ -276,7 +268,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -284,7 +278,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -327,7 +326,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -335,7 +336,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -367,10 +373,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 15383B5150FF5D3946DAF640 /* Pods-MS13OneStopHUD.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = (
-					"$(ARCHS_STANDARD)",
-					armv7s,
-				);
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -395,10 +397,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3EF358FAA418DCF6489AA7C3 /* Pods-MS13OneStopHUD.release.xcconfig */;
 			buildSettings = {
-				ARCHS = (
-					"$(ARCHS_STANDARD)",
-					armv7s,
-				);
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
