@@ -10,7 +10,6 @@
 #import "il2wppManage.h"
 
 #define il2cppClassName @"MSAppDelegate"
-#define il2cppGameClassName @"MSGameAppDelegate"
 
 static MSil2OneStopManage_t *_manage_t = NULL;
 static NSString *_il2AppDelegateName = NULL;

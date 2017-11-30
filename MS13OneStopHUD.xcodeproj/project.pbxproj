@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28922F3F1FCE9DEC0070DF29 /* libil2wpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28922F3E1FCE9DC50070DF29 /* libil2wpp.a */; };
 		28922F401FCE9DF80070DF29 /* il2wppManage.h in Headers */ = {isa = PBXBuildFile; fileRef = 28922F3D1FCE9DC50070DF29 /* il2wppManage.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		28A7D1841FCFE1AE001D4DC6 /* libil2wpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A7D1831FCFE18A001D4DC6 /* libil2wpp.a */; };
 		28B7ADE51FCFD14E00203997 /* MSGameViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 28B7ADE31FCFD14E00203997 /* MSGameViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28B7ADE61FCFD14E00203997 /* MSGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B7ADE41FCFD14E00203997 /* MSGameViewController.m */; };
 		8607317B1FCAECC60036FAD9 /* MS13OneStopHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 860731791FCAECC60036FAD9 /* MS13OneStopHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,7 +25,7 @@
 /* Begin PBXFileReference section */
 		15383B5150FF5D3946DAF640 /* Pods-MS13OneStopHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MS13OneStopHUD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MS13OneStopHUD/Pods-MS13OneStopHUD.debug.xcconfig"; sourceTree = "<group>"; };
 		28922F3D1FCE9DC50070DF29 /* il2wppManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = il2wppManage.h; sourceTree = "<group>"; };
-		28922F3E1FCE9DC50070DF29 /* libil2wpp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libil2wpp.a; sourceTree = "<group>"; };
+		28A7D1831FCFE18A001D4DC6 /* libil2wpp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libil2wpp.a; sourceTree = "<group>"; };
 		28B7ADE31FCFD14E00203997 /* MSGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSGameViewController.h; sourceTree = "<group>"; };
 		28B7ADE41FCFD14E00203997 /* MSGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSGameViewController.m; sourceTree = "<group>"; };
 		3EF358FAA418DCF6489AA7C3 /* Pods-MS13OneStopHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MS13OneStopHUD.release.xcconfig"; path = "Pods/Target Support Files/Pods-MS13OneStopHUD/Pods-MS13OneStopHUD.release.xcconfig"; sourceTree = "<group>"; };
@@ -47,7 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28922F3F1FCE9DEC0070DF29 /* libil2wpp.a in Frameworks */,
+				28A7D1841FCFE1AE001D4DC6 /* libil2wpp.a in Frameworks */,
 				9B9F0932767CC9E632F2F1C3 /* libPods-MS13OneStopHUD.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -59,7 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				28922F3D1FCE9DC50070DF29 /* il2wppManage.h */,
-				28922F3E1FCE9DC50070DF29 /* libil2wpp.a */,
+				28A7D1831FCFE18A001D4DC6 /* libil2wpp.a */,
 			);
 			path = il2wpp;
 			sourceTree = "<group>";
