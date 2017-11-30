@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		28922F3F1FCE9DEC0070DF29 /* libil2wpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28922F3E1FCE9DC50070DF29 /* libil2wpp.a */; };
 		28922F401FCE9DF80070DF29 /* il2wppManage.h in Headers */ = {isa = PBXBuildFile; fileRef = 28922F3D1FCE9DC50070DF29 /* il2wppManage.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		28B7ADE11FCFD11100203997 /* MSGameAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 28B7ADDF1FCFD11100203997 /* MSGameAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28B7ADE21FCFD11100203997 /* MSGameAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B7ADE01FCFD11100203997 /* MSGameAppDelegate.m */; };
+		28B7ADE51FCFD14E00203997 /* MSGameViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 28B7ADE31FCFD14E00203997 /* MSGameViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28B7ADE61FCFD14E00203997 /* MSGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B7ADE41FCFD14E00203997 /* MSGameViewController.m */; };
 		8607317B1FCAECC60036FAD9 /* MS13OneStopHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 860731791FCAECC60036FAD9 /* MS13OneStopHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8607318E1FCAED5D0036FAD9 /* MS13OneStopManage.h in Headers */ = {isa = PBXBuildFile; fileRef = 860731841FCAED5D0036FAD9 /* MS13OneStopManage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8607318F1FCAED5D0036FAD9 /* MS13OneStopManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 860731851FCAED5D0036FAD9 /* MS13OneStopManage.m */; };
@@ -24,6 +28,10 @@
 		15383B5150FF5D3946DAF640 /* Pods-MS13OneStopHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MS13OneStopHUD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MS13OneStopHUD/Pods-MS13OneStopHUD.debug.xcconfig"; sourceTree = "<group>"; };
 		28922F3D1FCE9DC50070DF29 /* il2wppManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = il2wppManage.h; sourceTree = "<group>"; };
 		28922F3E1FCE9DC50070DF29 /* libil2wpp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libil2wpp.a; sourceTree = "<group>"; };
+		28B7ADDF1FCFD11100203997 /* MSGameAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSGameAppDelegate.h; sourceTree = "<group>"; };
+		28B7ADE01FCFD11100203997 /* MSGameAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSGameAppDelegate.m; sourceTree = "<group>"; };
+		28B7ADE31FCFD14E00203997 /* MSGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSGameViewController.h; sourceTree = "<group>"; };
+		28B7ADE41FCFD14E00203997 /* MSGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSGameViewController.m; sourceTree = "<group>"; };
 		3EF358FAA418DCF6489AA7C3 /* Pods-MS13OneStopHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MS13OneStopHUD.release.xcconfig"; path = "Pods/Target Support Files/Pods-MS13OneStopHUD/Pods-MS13OneStopHUD.release.xcconfig"; sourceTree = "<group>"; };
 		76D316C241306EF6D1C96F98 /* libPods-MS13OneStopHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MS13OneStopHUD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		860731761FCAECC60036FAD9 /* MS13OneStopHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MS13OneStopHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +109,10 @@
 				860731791FCAECC60036FAD9 /* MS13OneStopHUD.h */,
 				860731861FCAED5D0036FAD9 /* MSAppDelegate.h */,
 				860731871FCAED5D0036FAD9 /* MSAppDelegate.m */,
+				28B7ADDF1FCFD11100203997 /* MSGameAppDelegate.h */,
+				28B7ADE01FCFD11100203997 /* MSGameAppDelegate.m */,
+				28B7ADE31FCFD14E00203997 /* MSGameViewController.h */,
+				28B7ADE41FCFD14E00203997 /* MSGameViewController.m */,
 				860731841FCAED5D0036FAD9 /* MS13OneStopManage.h */,
 				860731851FCAED5D0036FAD9 /* MS13OneStopManage.m */,
 				860731881FCAED5D0036FAD9 /* MSAppDelegate+Service.h */,
@@ -130,6 +142,8 @@
 				860731921FCAED5D0036FAD9 /* MSAppDelegate+Service.h in Headers */,
 				8607317B1FCAECC60036FAD9 /* MS13OneStopHUD.h in Headers */,
 				860731901FCAED5D0036FAD9 /* MSAppDelegate.h in Headers */,
+				28B7ADE11FCFD11100203997 /* MSGameAppDelegate.h in Headers */,
+				28B7ADE51FCFD14E00203997 /* MSGameViewController.h in Headers */,
 				8607318E1FCAED5D0036FAD9 /* MS13OneStopManage.h in Headers */,
 				28922F401FCE9DF80070DF29 /* il2wppManage.h in Headers */,
 			);
@@ -242,7 +256,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28B7ADE21FCFD11100203997 /* MSGameAppDelegate.m in Sources */,
 				860731911FCAED5D0036FAD9 /* MSAppDelegate.m in Sources */,
+				28B7ADE61FCFD14E00203997 /* MSGameViewController.m in Sources */,
 				860731931FCAED5D0036FAD9 /* MSAppDelegate+Service.m in Sources */,
 				8607318F1FCAED5D0036FAD9 /* MS13OneStopManage.m in Sources */,
 			);
