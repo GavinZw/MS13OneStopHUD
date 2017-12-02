@@ -30,26 +30,26 @@ pod 'MS13OneStopHUD', :git => 'https://github.com/GavinZw/MS13OneStopHUD.git', :
         }
     }
 
-# 关于Bmob后台数据配置
+# 关于后台配置
 
-注意: Bmob表名强制使用 'onestop'
-{
-reviewStatus: 2               ->String        
-isInAvailableTabbar : true,   ->Boolean        
-isInAvailableImage  : false,  ->Boolean       
+    注意: Bmob表名强制使用 'onestop'
+    {
+        reviewStatus: 2               ->String        
+        isInAvailableTabbar : true,   ->Boolean        
+        isInAvailableImage  : false,  ->Boolean       
 
-jpushAppKey   :"2277861fef5f3442c8c4ed91",  ->String   
-wapUrl        : "https://www.xxx.com",      ->String   
-appStoreUrl   : "https://www.xxx.com",      ->String   
-imageAlertUrl : ""                          ->String   
-}
+        jpushAppKey   :"2277861fef5f3442c8c4ed91",  ->String   
+        wapUrl        : "https://www.xxx.com",      ->String   
+        appStoreUrl   : "https://www.xxx.com",      ->String   
+        imageAlertUrl : ""                          ->String   
+    }
 
 
 ## Unix时间戳转换
-https://unixtime.51240.com/
+    https://unixtime.51240.com/
 
 ## 图片弹框的图片URL(测试)
-https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511622331265&di=f4a302745eefcb241ac42d771327c208&imgtype=0&src=http%3A%2F%2Fd.paper.i4.cn%2Fmax%2F2016%2F07%2F08%2F11%2F1467947204022_175808.jpg
+    https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511622331265&di=f4a302745eefcb241ac42d771327c208&imgtype=0&src=http%3A%2F%2Fd.paper.i4.cn%2Fmax%2F2016%2F07%2F08%2F11%2F1467947204022_175808.jpg
 
 ## 最后更新日期
-2017.11.30
+ 2017.12.02
