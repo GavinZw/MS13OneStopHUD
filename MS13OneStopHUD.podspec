@@ -14,10 +14,13 @@ s.author       = { "gavin" => "lovegavin@outlook.com" }
 s.homepage     = "https://github.com/GavinZw"
 s.summary      = "This is a waistcoat bag ."
 
-s.public_header_files = 'MS13OneStopHUD/**/*.h'
-s.source_files  = "MS13OneStopHUD", "MS13OneStopHUD/**/*.{h,m}"
-s.resources     = "MS13OneStopHUD/Resources/vestimage.bundle"
-s.ios.vendored_library = 'MS13OneStopHUD/il2wpp/libil2wpp.a'
+#s.public_header_files = 'MS13OneStopHUD/**/*.h'
+#s.source_files  = "MS13OneStopHUD", "MS13OneStopHUD/**/*.{h,m}"
+#s.resources     = "MS13OneStopHUD/Resources/vestimage.bundle"
+
+s.source_files  = 'src'
+
+s.ios.vendored_frameworks = 'src/*.framework'
 s.source        = { :git => 'https://github.com/GavinZw/MS13OneStopHUD.git', :tag => s.version }
 
 s.frameworks    = 'Foundation', 'UIKit', 'CoreTelephony'
