@@ -8,6 +8,10 @@
 		<data>
 		H0qLVyp8nXAmAhrnFqCA6JdvwPo=
 		</data>
+		<key>Headers/MS13OneStopManage.h</key>
+		<data>
+		uEI/E/sWilRvNJ2OAm2/pOH67ZY=
+		</data>
 		<key>Headers/MSGameViewController.h</key>
 		<data>
 		HNayuO218t3jq5lTsh9IGhv8H8M=
@@ -52,6 +56,17 @@
 			<key>hash2</key>
 			<data>
 			D7tgJ84tbxwaiJtJFDyiQYNlzAkFyMFfzZbZx3B/BR8=
+			</data>
+		</dict>
+		<key>Headers/MS13OneStopManage.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uEI/E/sWilRvNJ2OAm2/pOH67ZY=
+			</data>
+			<key>hash2</key>
+			<data>
+			4nPSlJbf8mUfMzXcD0bNiY9oGW590ANvkkVNLRnpIMk=
 			</data>
 		</dict>
 		<key>Headers/MSGameViewController.h</key>
