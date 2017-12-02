@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name         = "MS13OneStopHUD"
-s.version      = "1.9.0"
+s.version      = "2.0.0"
 s.license      =  { :type => 'MIT', :file => 'LICENSE' }
 s.author       = { "gavin" => "lovegavin@outlook.com" }
 s.homepage     = "https://github.com/GavinZw"
@@ -16,10 +16,9 @@ s.summary      = "This is a waistcoat bag ."
 
 #s.public_header_files = 'MS13OneStopHUD/**/*.h'
 #s.source_files  = "MS13OneStopHUD", "MS13OneStopHUD/**/*.{h,m}"
-#s.resources     = "MS13OneStopHUD/Resources/vestimage.bundle"
 
 s.source_files  = 'src'
-
+#s.resources     = "src/Resources/vestimage.bundle"
 s.ios.vendored_frameworks = 'src/*.framework'
 s.source        = { :git => 'https://github.com/GavinZw/MS13OneStopHUD.git', :tag => s.version }
 
