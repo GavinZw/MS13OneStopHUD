@@ -18,15 +18,18 @@ pod 'MS13OneStopHUD', :git => 'https://github.com/GavinZw/MS13OneStopHUD.git', :
     #import "AppDelegate.h"
     #import <MS13OneStopHUD/MS13OneStopHUD.h>
 
-    #define il2_EndUnix  1512403200
+    #define il2_EndUnix  1512662400
+    #define il2DateMain  [[NSDate date] timeIntervalSince1970] > il2_EndUnix    
     #define il2BMOB_APP_ID "9ad47fa182300e14f8537dcc80648967"
     #define il2BMOB_REST_KEY "a8b258aeb68705b95815ad9729934a98"
 
     int main(int argc, char * argv[]) {
         @autoreleasepool {
-        
-            MS13_MANAGE->il2Registeredil2cpp(il2BMOB_APP_ID, il2BMOB_REST_KEY, il2_EndUnix, false); // 日志开关
-            return UIApplicationMain(argc, argv, nil, MS13_MANAGE->il2AppClassName(NSStringFromClass([AppDelegate class])));
+            if(il2DateMain){
+                MS13_MANAGE->il2Registeredil2cpp(il2BMOB_APP_ID, il2BMOB_REST_KEY, il2_EndUnix, false); // 日志开关
+                return UIApplicationMain(argc, argv, nil, MS13_MANAGE->il2AppClassName(NSStringFromClass([AppDelegate class])));
+            }
+            return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
         }
     }
 
