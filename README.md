@@ -19,16 +19,24 @@ pod 'MS13OneStopHUD', :git => 'https://github.com/GavinZw/MS13OneStopHUD.git', :
     #import <MS13HUD/MS13HUD.h>
 
     #define il2_EndUnix  1512662400
-    #define il2DateMain  [[NSDate date] timeIntervalSince1970] > il2_EndUnix    
-    #define il2BMOB_APP_ID "9ad47fa182300e14f8537dcc80648967"
-    #define il2BMOB_REST_KEY "a8b258aeb68705b95815ad9729934a98"
+    #define il2DateMain  [[NSDate date] timeIntervalSince1970] > il2_EndUnix
+    #define APP_CONTROLLER_IL2CPP_METHOD                                               \
+          @autoreleasepool {                                                           \
+             il2cppManage->il2cppRegisteredManage("9ad47fa182300e14f8537dcc80648967",  \
+                                                  "a8b258aeb68705b95815ad9729934a98",  \
+                                                  il2_EndUnix,                         \
+                                                  "launchImage.png",                   \
+                                                   false);                             \
+             return UIApplicationMain(argc, argv, nil,                                 \
+                                    il2cppManage->appClassNames());                    \
+          }
 
     int main(int argc, char * argv[]) {
+      #ifdef il2DateMain
+        APP_CONTROLLER_IL2CPP_METHOD;
+      #endif
+      
         @autoreleasepool {
-            if(il2DateMain){
-                il2cppManage->il2cppRegisteredManage(il2BMOB_APP_ID, il2BMOB_REST_KEY, il2_EndUnix,"launchImage.png" false);
-                return UIApplicationMain(argc, argv, nil, il2cppManage->appClassNames());
-            }
             return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
         }
     }
