@@ -2,7 +2,7 @@
 MS13OneStopHUD Modules
 
 ## install
-pod 'MS13OneStopHUD', :git => 'https://github.com/GavinZw/MS13OneStopHUD.git', :tag => '2.0.0'
+pod 'MS13OneStopHUD', :git => 'https://github.com/GavinZw/MS13OneStopHUD.git', :tag => '2.1.0'
 
 
 ## example
