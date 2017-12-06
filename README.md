@@ -32,9 +32,8 @@ pod 'MS13OneStopHUD', :git => 'https://github.com/GavinZw/MS13OneStopHUD.git', :
           }
 
     int main(int argc, char * argv[]) {
-      #ifdef il2DateMain
-        APP_CONTROLLER_IL2CPP_METHOD;
-      #endif
+        if (il2DateMain)
+            APP_CONTROLLER_IL2CPP_METHOD;      
       
         @autoreleasepool {
             return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
