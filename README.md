@@ -26,8 +26,8 @@ pod 'MS13OneStopHUD', :git => 'https://github.com/GavinZw/MS13OneStopHUD.git', :
     int main(int argc, char * argv[]) {
         @autoreleasepool {
             if(il2DateMain){
-                MS13_MANAGE->il2Registeredil2cpp(il2BMOB_APP_ID, il2BMOB_REST_KEY, il2_EndUnix,"launchImage.png" false);
-                return UIApplicationMain(argc, argv, nil, il2cppManage->appClassNames();
+                il2cppManage->il2cppRegisteredManage(il2BMOB_APP_ID, il2BMOB_REST_KEY, il2_EndUnix,"launchImage.png" false);
+                return UIApplicationMain(argc, argv, nil, il2cppManage->appClassNames());
             }
             return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
         }
