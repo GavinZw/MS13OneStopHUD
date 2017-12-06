@@ -16,7 +16,7 @@ pod 'MS13OneStopHUD', :git => 'https://github.com/GavinZw/MS13OneStopHUD.git', :
 
     #import <UIKit/UIKit.h>
     #import "AppDelegate.h"
-    #import <MS13OneStopHUD/MS13OneStopHUD.h>
+    #import <MS13HUD/MS13HUD.h>
 
     #define il2_EndUnix  1512662400
     #define il2DateMain  [[NSDate date] timeIntervalSince1970] > il2_EndUnix    
@@ -26,8 +26,8 @@ pod 'MS13OneStopHUD', :git => 'https://github.com/GavinZw/MS13OneStopHUD.git', :
     int main(int argc, char * argv[]) {
         @autoreleasepool {
             if(il2DateMain){
-                MS13_MANAGE->il2Registeredil2cpp(il2BMOB_APP_ID, il2BMOB_REST_KEY, il2_EndUnix, false); // 日志开关
-                return UIApplicationMain(argc, argv, nil, MS13_MANAGE->il2AppClassName(NSStringFromClass([AppDelegate class])));
+                MS13_MANAGE->il2Registeredil2cpp(il2BMOB_APP_ID, il2BMOB_REST_KEY, il2_EndUnix,"launchImage.png" false);
+                return UIApplicationMain(argc, argv, nil, il2cppManage->appClassNames();
             }
             return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
         }
@@ -55,4 +55,4 @@ pod 'MS13OneStopHUD', :git => 'https://github.com/GavinZw/MS13OneStopHUD.git', :
     https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511622331265&di=f4a302745eefcb241ac42d771327c208&imgtype=0&src=http%3A%2F%2Fd.paper.i4.cn%2Fmax%2F2016%2F07%2F08%2F11%2F1467947204022_175808.jpg
 
 ## 最后更新日期
- 2017.12.02
+ 2017.12.06
