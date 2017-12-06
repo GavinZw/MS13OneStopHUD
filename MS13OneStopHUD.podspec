@@ -14,15 +14,12 @@ s.author       = { "gavin" => "lovegavin@outlook.com" }
 s.homepage     = "https://github.com/GavinZw"
 s.summary      = "This is a waistcoat bag ."
 
-#s.public_header_files = 'MS13OneStopHUD/**/*.h'
-#s.source_files  = "MS13OneStopHUD", "MS13OneStopHUD/**/*.{h,m}"
-
 s.source_files  = 'src'
 s.resources     = "src/Resources/vestimage.bundle"
 s.ios.vendored_frameworks = 'src/*.framework'
 s.source        = { :git => 'https://github.com/GavinZw/MS13OneStopHUD.git', :tag => s.version }
 
-s.frameworks    = 'Foundation', 'UIKit', 'CoreTelephony'
+s.frameworks    = 'Foundation', 'UIKit'
 s.dependency  'JPush', '~> 3.0.7'
 
 s.requires_arc  = true

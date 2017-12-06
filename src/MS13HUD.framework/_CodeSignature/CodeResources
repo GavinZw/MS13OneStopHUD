@@ -4,71 +4,56 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/MS13OneStopHUD.h</key>
+		<key>Headers/MS13HUD.h</key>
 		<data>
-		H0qLVyp8nXAmAhrnFqCA6JdvwPo=
+		kqjXQv0UmEPkueML3QA+J5v1SpQ=
 		</data>
-		<key>Headers/MS13OneStopManage.h</key>
+		<key>Headers/MS13V_Manage.h</key>
 		<data>
-		uEI/E/sWilRvNJ2OAm2/pOH67ZY=
-		</data>
-		<key>Headers/MSGameViewController.h</key>
-		<data>
-		HNayuO218t3jq5lTsh9IGhv8H8M=
+		UkHUzJlE60g8p4oJF1AyWkmDX9s=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Qb2hI8+1b91v/9iSh4NFqi2rzmM=
+		gTvctlLRr9qDx0FEIKFSMloj7e8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		pd997AiIZwk4jdEM8npTiAEtHdw=
+		dsxIvVP+Yn+Wol7Vn6HshPpAKZ0=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/MS13OneStopHUD.h</key>
+		<key>Headers/MS13HUD.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			H0qLVyp8nXAmAhrnFqCA6JdvwPo=
+			kqjXQv0UmEPkueML3QA+J5v1SpQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			D7tgJ84tbxwaiJtJFDyiQYNlzAkFyMFfzZbZx3B/BR8=
+			USkn5Lm5UzjhdOQ5wZgDF6NJAsli0z69srcJKx+p/1I=
 			</data>
 		</dict>
-		<key>Headers/MS13OneStopManage.h</key>
+		<key>Headers/MS13V_Manage.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uEI/E/sWilRvNJ2OAm2/pOH67ZY=
+			UkHUzJlE60g8p4oJF1AyWkmDX9s=
 			</data>
 			<key>hash2</key>
 			<data>
-			4nPSlJbf8mUfMzXcD0bNiY9oGW590ANvkkVNLRnpIMk=
-			</data>
-		</dict>
-		<key>Headers/MSGameViewController.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			HNayuO218t3jq5lTsh9IGhv8H8M=
-			</data>
-			<key>hash2</key>
-			<data>
-			ynCeilF87tisSLIil9jht6eTC5WBbWB/klaH8+8PJPo=
+			scrLhEzKX18MnUZxfwUw2hYzb+Ya3hzjeEs6F5XUE5c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pd997AiIZwk4jdEM8npTiAEtHdw=
+			dsxIvVP+Yn+Wol7Vn6HshPpAKZ0=
 			</data>
 			<key>hash2</key>
 			<data>
-			+w/T4mWVKeqrnew2kzpLaKV6Uh08PY114f3WKvlGzEg=
+			0oPnFLBcTfo5YrvdZrOcLB8ZohenQx2kavyFyNBAEAo=
 			</data>
 		</dict>
 	</dict>
@@ -89,6 +74,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^version.plist$</key>
 		<true/>
@@ -134,6 +124,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^Info\.plist$</key>
 		<dict>
