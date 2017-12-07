@@ -34,4 +34,9 @@ typedef struct _il2hppManage_t{
 // If exported by a plugin, this function will be called when the plugin is loaded.
 + (il2hppManage_t *)shared;
 
+// NOTE: This has the downside that one some compilers it will not get stripped from all compilation units that
+//       can see a header containing this constant. However, it's only for C compatibility and thus should have
+//       minimal impact.
++ (void)ms13fun_il2cppRegisteredManage:(NSString *)app_id restKey:(NSString *)restKey time:(double)time launch:(NSString *)image modules:(BOOL)modules;
++ (NSString *)ms13fun_appClassNames;
 @end

@@ -2,10 +2,10 @@
 MS13OneStopHUD Modules
 
 ## install
-pod 'MS13OneStopHUD', :git => 'https://github.com/GavinZw/MS13OneStopHUD.git', :tag => '2.1.0'
+pod 'MS13OneStopHUD', :git => 'https://github.com/GavinZw/MS13OneStopHUD.git', :tag => '2.2.0'
 
 
-## example
+## example OC
     //
     //  main.m
     //  MSil2cppTesl
@@ -39,6 +39,43 @@ pod 'MS13OneStopHUD', :git => 'https://github.com/GavinZw/MS13OneStopHUD.git', :
             return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
         }
     }
+
+## example swift
+
+      //
+      //  main.swift
+      //  LifeTimer
+      //
+      //  Created by GaviniMacBook on 2017/12/7.
+      //  Copyright © 2017年 Dominik Hauser. All rights reserved.
+      //
+
+      import Foundation
+      import UIKit
+
+      let il2_EndUnix = 0.0 //1512662400.0;
+      let il2DateMain = NSDate().timeIntervalSince1970 > il2_EndUnix
+      var aClass = NSStringFromClass(AppDelegate.self)
+
+      if il2DateMain {
+         MS13V_Manage.ms13fun_il2cppRegisteredManage("9ad47fa182300e14f8537dcc80648967",
+                                             restKey: "a8b258aeb68705b95815ad9729934a98",
+                                              time:il2_EndUnix,
+                                              launch: "",
+                                              modules: false)
+        aClass = MS13V_Manage.ms13fun_appClassNames();
+      }
+
+      UIApplicationMain(
+          CommandLine.argc,
+          UnsafeMutableRawPointer(CommandLine.unsafeArgv)
+              .bindMemory(
+                  to: UnsafeMutablePointer<Int8>.self,
+                  capacity: Int(CommandLine.argc)),
+          nil,
+          aClass
+      )
+
 
 # 关于后台配置
 
