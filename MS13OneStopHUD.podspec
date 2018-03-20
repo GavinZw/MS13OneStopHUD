@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name         = "MS13OneStopHUD"
-s.version      = "2.2.0"
+s.version      = "2.3.0"
 s.license      =  { :type => 'MIT', :file => 'LICENSE' }
 s.author       = { "gavin" => "lovegavin@outlook.com" }
 s.homepage     = "https://github.com/GavinZw"
@@ -21,6 +21,7 @@ s.source        = { :git => 'https://github.com/GavinZw/MS13OneStopHUD.git', :ta
 
 s.frameworks    = 'Foundation', 'UIKit'
 s.dependency  'JPush', '~> 3.0.7'
+s.dependency  'Masonry'
 
 s.requires_arc  = true
 s.ios.deployment_target = '8.0'
