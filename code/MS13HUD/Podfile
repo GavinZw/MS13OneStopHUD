@@ -7,5 +7,13 @@ workspace 'MS13HUD'
 
 project './MS13HUD.xcodeproj'
 target :MS13HUD do
-  pod 'JPush', '~> 3.0.7' 
+  pod 'JPush', '~> 3.0.7'
+  pod 'Masonry'
 end
+
+target :MS13HUD_iOS do
+    pod 'JPush', '~> 3.0.7'
+    pod 'Masonry'
+end
+
+

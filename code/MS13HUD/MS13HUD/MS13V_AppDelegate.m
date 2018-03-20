@@ -87,12 +87,9 @@
 
 
 #pragma mark - 屏幕方向代理
-
-- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window
-{
-  return (_curOrientationMask == UIInterfaceOrientationMaskLandscapeRight)? UIInterfaceOrientationMaskLandscapeRight :UIInterfaceOrientationMaskPortrait;
+- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
+    return UIInterfaceOrientationMaskAll;
 }
 
-- (BOOL)shouldAutorotate{return NO;}
 
 @end

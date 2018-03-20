@@ -34,8 +34,9 @@
 }
 
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations {
-    return UIInterfaceOrientationMaskPortrait;
+    return UIInterfaceOrientationMaskAll;
 }
+- (BOOL)shouldAutorotate {return YES;}
 
 /*
 #pragma mark - Navigation

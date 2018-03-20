@@ -44,8 +44,35 @@
 		286D94D61FD64D3500D59FAD /* MS13V_AppDelegate+Service.m in Sources */ = {isa = PBXBuildFile; fileRef = 286D94D41FD64D3500D59FAD /* MS13V_AppDelegate+Service.m */; };
 		286D94D91FD64E5900D59FAD /* MS13V_Manage.h in Headers */ = {isa = PBXBuildFile; fileRef = 286D94D71FD64E5900D59FAD /* MS13V_Manage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		286D94DA1FD64E5900D59FAD /* MS13V_Manage.m in Sources */ = {isa = PBXBuildFile; fileRef = 286D94D81FD64E5900D59FAD /* MS13V_Manage.m */; };
+		50187D96206146F0001D1691 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50187D95206146F0001D1691 /* AppDelegate.m */; };
+		50187D99206146F1001D1691 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50187D98206146F1001D1691 /* ViewController.m */; };
+		50187D9C206146F1001D1691 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50187D9A206146F1001D1691 /* Main.storyboard */; };
+		50187D9E206146F1001D1691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50187D9D206146F1001D1691 /* Assets.xcassets */; };
+		50187DA1206146F1001D1691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50187D9F206146F1001D1691 /* LaunchScreen.storyboard */; };
+		50187DA4206146F1001D1691 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50187DA3206146F1001D1691 /* main.m */; };
+		50187DAE206146F1001D1691 /* MS13HUD_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50187DAD206146F1001D1691 /* MS13HUD_iOSTests.m */; };
+		50187DB9206146F1001D1691 /* MS13HUD_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50187DB8206146F1001D1691 /* MS13HUD_iOSUITests.m */; };
+		50187DC520614B51001D1691 /* MS13HUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 286D94A41FD6438E00D59FAD /* MS13HUD.framework */; };
 		79BAAFCE84393A353137A0AD /* libPods-MS13HUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 332BB51D80382301E766BBB5 /* libPods-MS13HUD.a */; };
+		807DC31C0B7A463D77F311C8 /* libPods-MS13HUD_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2C54E22E45383C603A01D4 /* libPods-MS13HUD_iOS.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50187DAA206146F1001D1691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 286D949B1FD6438E00D59FAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50187D91206146F0001D1691;
+			remoteInfo = MS13HUD_iOS;
+		};
+		50187DB5206146F1001D1691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 286D949B1FD6438E00D59FAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50187D91206146F0001D1691;
+			remoteInfo = MS13HUD_iOS;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		286475D61FD78AAD00DC57D2 /* MS13V_LaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MS13V_LaunchViewController.h; sourceTree = "<group>"; };
@@ -74,8 +101,27 @@
 		286D94D71FD64E5900D59FAD /* MS13V_Manage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MS13V_Manage.h; sourceTree = "<group>"; };
 		286D94D81FD64E5900D59FAD /* MS13V_Manage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MS13V_Manage.m; sourceTree = "<group>"; };
 		332BB51D80382301E766BBB5 /* libPods-MS13HUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MS13HUD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ECACE7ABECB165BD103D4CD /* Pods-MS13HUD_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MS13HUD_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MS13HUD_iOS/Pods-MS13HUD_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		50187D92206146F0001D1691 /* MS13HUD_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MS13HUD_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50187D94206146F0001D1691 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50187D95206146F0001D1691 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50187D97206146F1001D1691 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		50187D98206146F1001D1691 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		50187D9B206146F1001D1691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50187D9D206146F1001D1691 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50187DA0206146F1001D1691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50187DA2206146F1001D1691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50187DA3206146F1001D1691 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50187DA9206146F1001D1691 /* MS13HUD_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MS13HUD_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50187DAD206146F1001D1691 /* MS13HUD_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MS13HUD_iOSTests.m; sourceTree = "<group>"; };
+		50187DAF206146F1001D1691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50187DB4206146F1001D1691 /* MS13HUD_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MS13HUD_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50187DB8206146F1001D1691 /* MS13HUD_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MS13HUD_iOSUITests.m; sourceTree = "<group>"; };
+		50187DBA206146F1001D1691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61CF09C16825C2B576BA2955 /* Pods-MS13HUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MS13HUD.release.xcconfig"; path = "Pods/Target Support Files/Pods-MS13HUD/Pods-MS13HUD.release.xcconfig"; sourceTree = "<group>"; };
+		7A4B6B668976DE007A60791C /* Pods-MS13HUD_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MS13HUD_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-MS13HUD_iOS/Pods-MS13HUD_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		97DDAA340BDACADA55BA0243 /* Pods-MS13HUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MS13HUD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MS13HUD/Pods-MS13HUD.debug.xcconfig"; sourceTree = "<group>"; };
+		DC2C54E22E45383C603A01D4 /* libPods-MS13HUD_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MS13HUD_iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +133,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		50187D8F206146F0001D1691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50187DC520614B51001D1691 /* MS13HUD.framework in Frameworks */,
+				807DC31C0B7A463D77F311C8 /* libPods-MS13HUD_iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50187DA6206146F1001D1691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50187DB1206146F1001D1691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -94,6 +163,9 @@
 			isa = PBXGroup;
 			children = (
 				286D94A61FD6438E00D59FAD /* MS13HUD */,
+				50187D93206146F0001D1691 /* MS13HUD_iOS */,
+				50187DAC206146F1001D1691 /* MS13HUD_iOSTests */,
+				50187DB7206146F1001D1691 /* MS13HUD_iOSUITests */,
 				286D94A51FD6438E00D59FAD /* Products */,
 				52C10456B2711002ACE9D676 /* Pods */,
 				C322CF29466EB5750A4F0776 /* Frameworks */,
@@ -104,6 +176,9 @@
 			isa = PBXGroup;
 			children = (
 				286D94A41FD6438E00D59FAD /* MS13HUD.framework */,
+				50187D92206146F0001D1691 /* MS13HUD_iOS.app */,
+				50187DA9206146F1001D1691 /* MS13HUD_iOSTests.xctest */,
+				50187DB4206146F1001D1691 /* MS13HUD_iOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,11 +214,47 @@
 			path = MS13HUD;
 			sourceTree = "<group>";
 		};
+		50187D93206146F0001D1691 /* MS13HUD_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				50187D94206146F0001D1691 /* AppDelegate.h */,
+				50187D95206146F0001D1691 /* AppDelegate.m */,
+				50187D97206146F1001D1691 /* ViewController.h */,
+				50187D98206146F1001D1691 /* ViewController.m */,
+				50187D9A206146F1001D1691 /* Main.storyboard */,
+				50187D9D206146F1001D1691 /* Assets.xcassets */,
+				50187D9F206146F1001D1691 /* LaunchScreen.storyboard */,
+				50187DA2206146F1001D1691 /* Info.plist */,
+				50187DA3206146F1001D1691 /* main.m */,
+			);
+			path = MS13HUD_iOS;
+			sourceTree = "<group>";
+		};
+		50187DAC206146F1001D1691 /* MS13HUD_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				50187DAD206146F1001D1691 /* MS13HUD_iOSTests.m */,
+				50187DAF206146F1001D1691 /* Info.plist */,
+			);
+			path = MS13HUD_iOSTests;
+			sourceTree = "<group>";
+		};
+		50187DB7206146F1001D1691 /* MS13HUD_iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50187DB8206146F1001D1691 /* MS13HUD_iOSUITests.m */,
+				50187DBA206146F1001D1691 /* Info.plist */,
+			);
+			path = MS13HUD_iOSUITests;
+			sourceTree = "<group>";
+		};
 		52C10456B2711002ACE9D676 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				97DDAA340BDACADA55BA0243 /* Pods-MS13HUD.debug.xcconfig */,
 				61CF09C16825C2B576BA2955 /* Pods-MS13HUD.release.xcconfig */,
+				4ECACE7ABECB165BD103D4CD /* Pods-MS13HUD_iOS.debug.xcconfig */,
+				7A4B6B668976DE007A60791C /* Pods-MS13HUD_iOS.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -152,6 +263,7 @@
 			isa = PBXGroup;
 			children = (
 				332BB51D80382301E766BBB5 /* libPods-MS13HUD.a */,
+				DC2C54E22E45383C603A01D4 /* libPods-MS13HUD_iOS.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -201,13 +313,69 @@
 			productReference = 286D94A41FD6438E00D59FAD /* MS13HUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		50187D91206146F0001D1691 /* MS13HUD_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50187DC1206146F1001D1691 /* Build configuration list for PBXNativeTarget "MS13HUD_iOS" */;
+			buildPhases = (
+				E11D83E31015C93A6E32B36B /* [CP] Check Pods Manifest.lock */,
+				50187D8E206146F0001D1691 /* Sources */,
+				50187D8F206146F0001D1691 /* Frameworks */,
+				50187D90206146F0001D1691 /* Resources */,
+				604701A8EC0B0CF6FF88E26D /* [CP] Embed Pods Frameworks */,
+				BC0C038371D069F6E10EFC8F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MS13HUD_iOS;
+			productName = MS13HUD_iOS;
+			productReference = 50187D92206146F0001D1691 /* MS13HUD_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50187DA8206146F1001D1691 /* MS13HUD_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50187DC2206146F1001D1691 /* Build configuration list for PBXNativeTarget "MS13HUD_iOSTests" */;
+			buildPhases = (
+				50187DA5206146F1001D1691 /* Sources */,
+				50187DA6206146F1001D1691 /* Frameworks */,
+				50187DA7206146F1001D1691 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50187DAB206146F1001D1691 /* PBXTargetDependency */,
+			);
+			name = MS13HUD_iOSTests;
+			productName = MS13HUD_iOSTests;
+			productReference = 50187DA9206146F1001D1691 /* MS13HUD_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50187DB3206146F1001D1691 /* MS13HUD_iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50187DC3206146F1001D1691 /* Build configuration list for PBXNativeTarget "MS13HUD_iOSUITests" */;
+			buildPhases = (
+				50187DB0206146F1001D1691 /* Sources */,
+				50187DB1206146F1001D1691 /* Frameworks */,
+				50187DB2206146F1001D1691 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50187DB6206146F1001D1691 /* PBXTargetDependency */,
+			);
+			name = MS13HUD_iOSUITests;
+			productName = MS13HUD_iOSUITests;
+			productReference = 50187DB4206146F1001D1691 /* MS13HUD_iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		286D949B1FD6438E00D59FAD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Gavin;
 				TargetAttributes = {
 					286D94A31FD6438E00D59FAD = {
@@ -218,6 +386,20 @@
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
+					50187D91206146F0001D1691 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					50187DA8206146F1001D1691 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50187D91206146F0001D1691;
+					};
+					50187DB3206146F1001D1691 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50187D91206146F0001D1691;
+					};
 				};
 			};
 			buildConfigurationList = 286D949E1FD6438E00D59FAD /* Build configuration list for PBXProject "MS13HUD" */;
@@ -226,6 +408,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 286D949A1FD6438E00D59FAD;
 			productRefGroup = 286D94A51FD6438E00D59FAD /* Products */;
@@ -234,12 +417,39 @@
 			targets = (
 				286D94A31FD6438E00D59FAD /* MS13HUD */,
 				28E88B2F1FD78E9000615F0D /* Build */,
+				50187D91206146F0001D1691 /* MS13HUD_iOS */,
+				50187DA8206146F1001D1691 /* MS13HUD_iOSTests */,
+				50187DB3206146F1001D1691 /* MS13HUD_iOSUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		286D94A21FD6438E00D59FAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50187D90206146F0001D1691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50187DA1206146F1001D1691 /* LaunchScreen.storyboard in Resources */,
+				50187D9E206146F1001D1691 /* Assets.xcassets in Resources */,
+				50187D9C206146F1001D1691 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50187DA7206146F1001D1691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50187DB2206146F1001D1691 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -277,19 +487,70 @@
 			shellPath = /bin/sh;
 			shellScript = "#!/bin/sh\n#要build的target名\nTARGET_NAME=${PROJECT_NAME}\nif [[ $1 ]]\nthen\nTARGET_NAME=$1\nfi\nUNIVERSAL_OUTPUT_FOLDER=\"${SRCROOT}/${PROJECT_NAME}_Products/\"\n\n#创建输出目录，并删除之前的framework文件\nmkdir -p \"${UNIVERSAL_OUTPUT_FOLDER}\"\nrm -rf \"${UNIVERSAL_OUTPUT_FOLDER}/${TARGET_NAME}.framework\"\n\n#分别编译模拟器和真机的Framework\nxcodebuild -target \"${TARGET_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"${TARGET_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphonesimulator BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n#拷贝framework到univer目录\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${TARGET_NAME}.framework\" \"${UNIVERSAL_OUTPUT_FOLDER}\"\n\n#合并framework，输出最终的framework到build目录\nlipo -create -output \"${UNIVERSAL_OUTPUT_FOLDER}/${TARGET_NAME}.framework/${TARGET_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${TARGET_NAME}.framework/${TARGET_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${TARGET_NAME}.framework/${TARGET_NAME}\"\n\n#删除编译之后生成的无关的配置文件\ndir_path=\"${UNIVERSAL_OUTPUT_FOLDER}/${TARGET_NAME}.framework/\"\nfor file in ls $dir_path\ndo\nif [[ ${file} =~ \".xcconfig\" ]]\nthen\nrm -f \"${dir_path}/${file}\"\nfi\ndone\n\n#判断build文件夹是否存在，存在则删除\nif [ -d \"${SRCROOT}/build\" ]\nthen\nrm -rf \"${SRCROOT}/build\"\nfi\n\nrm -rf \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos\"\n\n#打开合并后的文件夹\nopen \"${UNIVERSAL_OUTPUT_FOLDER}\"";
 		};
-		CF1904CA37B4409291A09384 /* [CP] Check Pods Manifest.lock */ = {
+		604701A8EC0B0CF6FF88E26D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MS13HUD_iOS/Pods-MS13HUD_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC0C038371D069F6E10EFC8F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MS13HUD_iOS/Pods-MS13HUD_iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF1904CA37B4409291A09384 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MS13HUD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E11D83E31015C93A6E32B36B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MS13HUD_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -313,7 +574,65 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		50187D8E206146F0001D1691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50187D99206146F1001D1691 /* ViewController.m in Sources */,
+				50187DA4206146F1001D1691 /* main.m in Sources */,
+				50187D96206146F0001D1691 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50187DA5206146F1001D1691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50187DAE206146F1001D1691 /* MS13HUD_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50187DB0206146F1001D1691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50187DB9206146F1001D1691 /* MS13HUD_iOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50187DAB206146F1001D1691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50187D91206146F0001D1691 /* MS13HUD_iOS */;
+			targetProxy = 50187DAA206146F1001D1691 /* PBXContainerItemProxy */;
+		};
+		50187DB6206146F1001D1691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50187D91206146F0001D1691 /* MS13HUD_iOS */;
+			targetProxy = 50187DB5206146F1001D1691 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50187D9A206146F1001D1691 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50187D9B206146F1001D1691 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50187D9F206146F1001D1691 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50187DA0206146F1001D1691 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		286D94AA1FD6438E00D59FAD /* Debug */ = {
@@ -365,7 +684,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -417,7 +736,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -430,7 +749,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 97DDAA340BDACADA55BA0243 /* Pods-MS13HUD.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -454,7 +772,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 61CF09C16825C2B576BA2955 /* Pods-MS13HUD.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -490,6 +807,110 @@
 			};
 			name = Release;
 		};
+		50187DBB206146F1001D1691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ECACE7ABECB165BD103D4CD /* Pods-MS13HUD_iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D62AB9PK6Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"${SRCROOT}",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MS13HUD_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.howToFill.MS13HUD-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50187DBC206146F1001D1691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A4B6B668976DE007A60791C /* Pods-MS13HUD_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D62AB9PK6Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"${SRCROOT}",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MS13HUD_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.howToFill.MS13HUD-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50187DBD206146F1001D1691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D62AB9PK6Q;
+				INFOPLIST_FILE = MS13HUD_iOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.howToFill.MS13HUD-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MS13HUD_iOS.app/MS13HUD_iOS";
+			};
+			name = Debug;
+		};
+		50187DBE206146F1001D1691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D62AB9PK6Q;
+				INFOPLIST_FILE = MS13HUD_iOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.howToFill.MS13HUD-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MS13HUD_iOS.app/MS13HUD_iOS";
+			};
+			name = Release;
+		};
+		50187DBF206146F1001D1691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D62AB9PK6Q;
+				INFOPLIST_FILE = MS13HUD_iOSUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.howToFill.MS13HUD-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MS13HUD_iOS;
+			};
+			name = Debug;
+		};
+		50187DC0206146F1001D1691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D62AB9PK6Q;
+				INFOPLIST_FILE = MS13HUD_iOSUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.howToFill.MS13HUD-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MS13HUD_iOS;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -516,6 +937,33 @@
 			buildConfigurations = (
 				28E88B301FD78E9000615F0D /* Debug */,
 				28E88B311FD78E9000615F0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50187DC1206146F1001D1691 /* Build configuration list for PBXNativeTarget "MS13HUD_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50187DBB206146F1001D1691 /* Debug */,
+				50187DBC206146F1001D1691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50187DC2206146F1001D1691 /* Build configuration list for PBXNativeTarget "MS13HUD_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50187DBD206146F1001D1691 /* Debug */,
+				50187DBE206146F1001D1691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50187DC3206146F1001D1691 /* Build configuration list for PBXNativeTarget "MS13HUD_iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50187DBF206146F1001D1691 /* Debug */,
+				50187DC0206146F1001D1691 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
