@@ -18,7 +18,8 @@
 
 @interface MS13V_WebViewController () <
   WKUIDelegate,
-  WKNavigationDelegate
+  WKNavigationDelegate,
+  UIWebViewDelegate
 >
 @property(nonatomic, strong) MS13V_TabBar *tabbar;
 @end
@@ -97,6 +98,7 @@
     // We did good on performance, but there are still a lot of room for optimisation. Using webworkers would increase cpu usage. Compiling in webassembly instead of asm.js should improve loading time and likely cpu performance. And obviously, we can still do more parameters tweaking :)
     //WithFrame:CGRectMake(0, 0, self.view.frame.size.width, webView_H)
     _webview = [[UIWebView alloc] init];
+    _webview.delegate = self;
     [_webview setScalesPageToFit:YES];//自动缩放页面以适应屏幕
     NSURL *url = [[NSURL alloc]initWithString:config.wapUrl];
     NSURLRequest *req = [[NSURLRequest alloc] initWithURL:url cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:20.0];
