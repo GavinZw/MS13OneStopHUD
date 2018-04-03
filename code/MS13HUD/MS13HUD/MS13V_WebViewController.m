@@ -49,20 +49,20 @@
     // Do any additional setup after loading the view.
     // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
      [self configurationUI];
-    
+  
      [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(doRotateAction:) name:UIDeviceOrientationDidChangeNotification object:nil];
 }
 
 - (void)doRotateAction:(NSNotification *)notification {
     if ([[UIDevice currentDevice] orientation] == UIDeviceOrientationPortrait
         || [[UIDevice currentDevice] orientation] == UIDeviceOrientationPortraitUpsideDown) {
-        
-       
+      
+      
     } else if ([[UIDevice currentDevice] orientation] == UIDeviceOrientationLandscapeLeft
                || [[UIDevice currentDevice] orientation] == UIDeviceOrientationLandscapeRight) {
         NSLog(@"横屏");
         //[self.view setTransform:CGAffineTransformMakeRotation(M_PI/2)];
-       
+      
     }
     //[self.view setTransform:CGAffineTransformMakeRotation(M_PI/2)];
 //    NSLog(@"self.view = %@",self.view);
@@ -79,8 +79,8 @@
 //        make.bottom.mas_equalTo(self.view.mas_bottom).offset(0);
 //        make.height.mas_equalTo(50);
 //    }];
-    
-    
+  
+  
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -104,7 +104,7 @@
     NSURLRequest *req = [[NSURLRequest alloc] initWithURL:url cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:20.0];
     [_webview loadRequest:req];
     [self.view addSubview:_webview];
-    
+  
     //WithFrame:CGRectMake(0, webView_H, self.view.frame.size.width, 50)
     if (config.isInAvailableTabbar) {
         il2Log(@"allow show tabbar.");
@@ -116,14 +116,14 @@
         [tabbar.Shuaxin addTarget:self action:@selector(webviewReload) forControlEvents:UIControlEventTouchUpInside];
         [tabbar.Tuichu addTarget:self action:@selector(webviewEsc) forControlEvents:UIControlEventTouchUpInside];
         [self.view addSubview:tabbar];
-        
+      
         [_webview mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.mas_equalTo(self.view.mas_left).offset(0);
             make.right.mas_equalTo(self.view.mas_right).offset(0);
             make.top.mas_equalTo(self.view.mas_top).offset(0);
             make.bottom.mas_equalTo(tabbar.mas_top).offset(0);
         }];
-        
+      
         [tabbar mas_makeConstraints:^(MASConstraintMaker *make) {
             make.right.mas_equalTo(self.view.mas_right).offset(0);
             make.left.mas_equalTo(self.view.mas_left).offset(0);
@@ -199,9 +199,10 @@
 - (void)webviewEsc
 {
 // We did good on performance, but there are still a lot of room for optimisation. Using webworkers would increase cpu usage. Compiling in webassembly instead of asm.js should improve loading time and likely cpu performance. And obviously, we can still do more parameters tweaking :)
-    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"是否退出？" message:nil preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"是否清除缓存？" message:nil preferredStyle:UIAlertControllerStyleAlert];
     UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-        [@[] objectAtIndex:10];
+       // [@[] objectAtIndex:10];
+        [self cleanCacheAndCookie];
     }];
     // We did good on performance, but there are still a lot of room for optimisation. Using webworkers would increase cpu usage. Compiling in webassembly instead of asm.js should improve loading time and likely cpu performance. And obviously, we can still do more parameters tweaking :)
     UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
@@ -244,6 +245,23 @@
   [_webview loadRequest:req];
 }
 
+/**清除缓存和cookie*/
+- (void)cleanCacheAndCookie{
+    //清除cookies
+    NSHTTPCookie *cookie;
+    NSHTTPCookieStorage *storage = [NSHTTPCookieStorage sharedHTTPCookieStorage];
+    for (cookie in [storage cookies]){
+        [storage deleteCookie:cookie];
+    }
+    //清除UIWebView的缓存
+    [[NSURLCache sharedURLCache] removeAllCachedResponses];
+    NSURLCache * cache = [NSURLCache sharedURLCache];
+    [cache removeAllCachedResponses];
+    [cache setDiskCapacity:0];
+    [cache setMemoryCapacity:0];
+}
+
+
 #pragma makr -
 
 - (NSString *)savedDownloadImagePath:(NSString *)imageURL{
@@ -260,10 +278,11 @@
 
 - (BOOL)shouldAutorotate {
     return YES;
-    
+  
 }
 - (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
 {
     return UIInterfaceOrientationPortrait;
 }
 @end
+

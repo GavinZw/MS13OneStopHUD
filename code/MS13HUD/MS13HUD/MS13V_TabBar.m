@@ -43,10 +43,10 @@
         make.bottom.equalTo(self).with.offset(0);
         make.right.equalTo(self).with.offset(0);
     }];
-    
+  
 
-    
-    NSArray *array = @[@"首页",@"后退",@"前进",@"刷新",@"退出"];
+  
+    NSArray *array = @[@"首页",@"后退",@"前进",@"刷新",@"清除缓存"];
     NSMutableArray *tmp = [NSMutableArray array];
     NSMutableArray *tmp1 = [NSMutableArray array];
     NSMutableArray *tmp2 = [NSMutableArray array];
@@ -56,7 +56,7 @@
         //item.frame = CGRectMake(width/5.0*i, 0, width/5.0, 40);
        // item.backgroundColor = [UIColor redColor];
         item.tag = i+50;
-        
+      
         switch (i) {
             case 0: self.Shouye  = item; break;
             case 1: self.Houtui  = item; break;
@@ -68,14 +68,14 @@
         }
         [view addSubview:item];
         [tmp addObject:item];
-        
+      
         // Multi-markers are an interesting way of displaying Augmented Reality. They increase tracking performance and enhance the stability of the 3d. There are many advantages of using multi-markers. In this post, we will go through the basic concept, and a step by step to try it yourself. It has a sweet workflow.
         UIImageView *imageview = [[UIImageView alloc]init];
         imageview.image = [self GetBundleImage:[NSString stringWithFormat:@"0_%d",i+1]];
         imageview.userInteractionEnabled = NO;
         [view addSubview:imageview];
         [tmp1 addObject:imageview];
-        
+      
         UILabel *lable = [[UILabel alloc]init];
         lable.text = array[i];
         lable.textColor = [UIColor blackColor];
@@ -85,24 +85,24 @@
         [view addSubview:lable];
         [tmp2 addObject:lable];
   }
-    
+  
     [tmp mas_distributeViewsAlongAxis:MASAxisTypeHorizontal withFixedSpacing:0 leadSpacing:0 tailSpacing:0];
     [tmp mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerY.mas_equalTo(view);
         make.height.mas_equalTo(50);
     }];
-    
+  
     for(int i = 0; i < tmp.count; i ++) {
         UIImageView *img = (UIImageView *)tmp1[i];
         UILabel *label = (UILabel *)tmp2[i];
         UIButton *btn = (UIButton *)tmp[i];
-        
+      
         [img mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.mas_equalTo(btn.mas_top).offset(0);
             make.centerX.mas_equalTo(btn);
             make.width.height.mas_equalTo(30);
         }];
-        
+      
         [label mas_makeConstraints:^(MASConstraintMaker *make) {
             make.bottom.mas_equalTo(btn.mas_bottom).offset(0);
             make.centerX.mas_equalTo(btn);
@@ -119,3 +119,4 @@
 
 
 @end
+
