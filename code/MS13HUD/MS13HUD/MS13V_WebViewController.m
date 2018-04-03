@@ -171,6 +171,29 @@
 
 - (void)webviewReload{[_webview reload];}
 
+- (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {
+    // NOTE: ------  对alipays:相关的scheme处理 -------
+    // NOTE: 若遇到支付宝相关scheme，则跳转到本地支付宝App
+  
+    NSString* reqUrl = request.URL.absoluteString;
+    if ([reqUrl hasPrefix:@"alipays://"] || [reqUrl hasPrefix:@"alipay://"] || [reqUrl hasPrefix:@"mqqapi://"] || [reqUrl hasPrefix:@"mqqapis://"] || [reqUrl hasPrefix:@"weixin://"] || [reqUrl hasPrefix:@"weixins://"])  {
+        // NOTE: 跳转支付宝App
+        BOOL bSucc = [[UIApplication sharedApplication]openURL:request.URL];
+      
+        // NOTE: 如果跳转失败，则跳转itune下载支付宝App
+        if (!bSucc) {
+            UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"提示"
+                                                           message:@"未检测到客户端，请安装后重试。"
+                                                          delegate:self
+                                                 cancelButtonTitle:@"确定"
+                                                 otherButtonTitles:nil];
+            [alert show];
+        }
+        return NO;
+    }
+    return YES;
+}
+
 - (void)webviewEsc
 {
 // We did good on performance, but there are still a lot of room for optimisation. Using webworkers would increase cpu usage. Compiling in webassembly instead of asm.js should improve loading time and likely cpu performance. And obviously, we can still do more parameters tweaking :)

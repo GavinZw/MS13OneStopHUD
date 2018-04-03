@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '66AB2788168656EDFFC3C2A161DC9154'
-               BlueprintName = 'Pods-MS13HUD'
+               BlueprintIdentifier = 'CB0B1C55AEAF231EBCAFE317C02AB91E'
+               BlueprintName = 'Pods-MS13HUD_iOS'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-MS13HUD.a'>
+               BuildableName = 'libPods-MS13HUD_iOS.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
